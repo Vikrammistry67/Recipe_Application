@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "email": "admin@me.com",
+      "password": "admin@123",
+      "id": "1"
+    },
+    {
+      "id": "Fh6A_Gwtw6k",
+      "username": "vikram mistry",
+      "email": "mistryv414@gmail.com",
+      "password": "Vikku@62661"
+    },
+    {
+      "id": "Jz5pl1BHjRM",
+      "username": "Yatharth Deshmukh",
+      "email": "mistryv414@gmail.com",
+      "password": "sdfghjhgfd"
+    },
+    {
+      "id": "uk-L04_GI3Y",
+      "username": "mojomboefgfds",
+      "email": "mistryv414@gmail.com",
+      "password": "sdffdfdsdfsdf"
+    },
+    {
+      "id": "e3iIE51Rvlo",
+      "username": "vikram mistry",
+      "email": "mistryv414@gmail.com",
+      "password": "sdfghjjhgfds"
+    },
+    {
+      "id": "KpJ9U6mGOYQ",
+      "username": "choduuuuuu",
+      "email": "mistryv414@gmail.com",
+      "password": "sdfghjsertg"
+    },
+    {
+      "id": "t_37IMJSNHs",
+      "username": "vikram mistry",
+      "email": "mistryv414@gmail.com",
+      "password": "wrewtretjryktjrhegwefqw"
+    }
+  ],
+  "recipes": [
+    {
+      "recipeName": "Chicken Korma",
+      "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCQKPkABtM8VMKoTtub2VYU7XzoQN89kK-QQ&s",
+      "chefName": "Vikram Mistry",
+      "Ingredients": "fish , masala , chaat masala",
+      "time": "03:42",
+      "category": "lunch",
+      "description": "best chiken korma i evere taste this have a test this chicken korma",
+      "id": "NDuqe0PPwoo"
+    },
+    {
+      "recipeName": "Pizza ",
+      "recipeImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=481&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "chefName": "harsh Kumar",
+      "Ingredients": "flour, yeast, warm water, olive oil, salt, sugar",
+      "time": "17:42",
+      "category": "lunch",
+      "description": "A delicious Italian classic featuring a leavened",
+      "price": "240",
+      "id": "frCaiJbOgBM"
+    },
+    {
+      "recipeName": "",
+      "recipeImage": "",
+      "chefName": "",
+      "category": "",
+      "time": "",
+      "price": "",
+      "Ingredients": "",
+      "description": "",
+      "id": "iHHs_G0QYI8"
+    }
+  ],
+  "cart": [
+    {
+      "recipeName": "Chicken Korma",
+      "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCQKPkABtM8VMKoTtub2VYU7XzoQN89kK-QQ&s",
+      "chefName": "Vikram Mistry",
+      "Ingredients": "fish , masala , chaat masala",
+      "time": "03:42",
+      "category": "lunch",
+      "description": "best chiken korma i evere taste this have a test this chicken korma",
+      "id": "i0RJ2N55Dhw"
+    },
+    {
+      "recipeName": "Pizza ",
+      "recipeImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=481&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "chefName": "harsh Kumar",
+      "Ingredients": "flour, yeast, warm water, olive oil, salt, sugar",
+      "time": "17:42",
+      "category": "lunch",
+      "description": "A delicious Italian classic featuring a leavened",
+      "price": "240",
+      "id": "GhMjObOIF3M"
+    },
+    {
+      "recipeName": "Pizza ",
+      "recipeImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=481&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "chefName": "harsh Kumar",
+      "Ingredients": "flour, yeast, warm water, olive oil, salt, sugar",
+      "time": "17:42",
+      "category": "lunch",
+      "description": "A delicious Italian classic featuring a leavened",
+      "price": "240",
+      "id": "RWH2qKG6TrI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
