@@ -4,7 +4,7 @@
       "username": "admin",
       "email": "admin@me.com",
       "password": "admin@123",
-      "id": "1"
+      "role": "admin"
     },
     {
       "id": "Fh6A_Gwtw6k",
@@ -41,6 +41,42 @@
       "username": "vikram mistry",
       "email": "mistryv414@gmail.com",
       "password": "wrewtretjryktjrhegwefqw"
+    },
+    {
+      "id": "hvED8JSAAGE",
+      "username": "Sarthak Sharma",
+      "email": "sartham@gmail.com",
+      "password": "sarthak123"
+    },
+    {
+      "id": "X-KGPOOguP8",
+      "username": "Harsh Sharma",
+      "email": "harsh@gmail.com",
+      "password": "hasrh123"
+    },
+    {
+      "id": "nQRRd_T8ioQ",
+      "username": "Ankur Prajapati",
+      "email": "ha@gmail.com",
+      "password": "ankur123"
+    },
+    {
+      "id": "V2vTmX42pxg",
+      "username": "neha sahu",
+      "email": "ha@gmail.com",
+      "password": "neha123ssss"
+    },
+    {
+      "id": "3XYWiP2L1KU",
+      "username": "ishu soni",
+      "email": "ishu@gmail.com",
+      "password": "ishu@1234"
+    },
+    {
+      "id": "gWDEf_dXjHw",
+      "username": "vikram mistry",
+      "email": "vikku@gmail.com",
+      "password": "vikku@6261"
     }
   ],
   "recipes": [
@@ -87,17 +123,6 @@
       "category": "lunch",
       "description": "best chiken korma i evere taste this have a test this chicken korma",
       "id": "i0RJ2N55Dhw"
-    },
-    {
-      "recipeName": "Pizza ",
-      "recipeImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=481&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "chefName": "harsh Kumar",
-      "Ingredients": "flour, yeast, warm water, olive oil, salt, sugar",
-      "time": "17:42",
-      "category": "lunch",
-      "description": "A delicious Italian classic featuring a leavened",
-      "price": "240",
-      "id": "GhMjObOIF3M"
     },
     {
       "recipeName": "Pizza ",

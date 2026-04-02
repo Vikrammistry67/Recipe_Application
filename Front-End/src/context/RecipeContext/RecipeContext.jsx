@@ -1,4 +1,5 @@
 import { createContext, useState } from "react"
+import toast from "react-hot-toast";
 
 export const RecipeCon = createContext();
 const RecipeContext = ({ children }) => {
@@ -13,6 +14,7 @@ const RecipeContext = ({ children }) => {
   const logout = () => {
     setUser(null);
     localStorage.removeItem('User');
+    toast.error('Logout Successful');
   };
   console.log('USER : ', user);
   return (

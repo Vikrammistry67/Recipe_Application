@@ -3,13 +3,39 @@ import { useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
 import { RecipeCon } from '../context/RecipeContext/RecipeContext';
 import { nanoid } from 'nanoid';
-
+import axios from 'axios';
+import { toast } from 'react-hot-toast'
 const Login = () => {
   const { register, reset, handleSubmit, formState: { errors } } = useForm();
   const navigate = useNavigate();
   const { login } = useContext(RecipeCon);
 
   const submitHandler = async (data) => {
+
+    const isPasswordValid = axios.get(`http://localhost:3000/users?email=${data.email}&password=${data.password}`);
+    if (!isPasswordValid) {
+      toast.error('Invalid UserName and Password');
+      return;
+    };
+
+    const userData = await isPasswordValid;
+    if (userData.data.length === 0) {
+      toast.error('Invalid UserName and Password');
+      return;
+    }
+
+    const isValidAdmin = axios.get(`http://localhost:3000/users?email=${data.email}&password=${data.password}&role=admin`);
+    const adminData = await isValidAdmin;
+    if (!adminData) {
+      toast.error('Invalid UserName and Password as Admin !');
+      return;
+    }
+    if (adminData.data.length > 0) {
+      toast.success('Admin Login Successful');
+    } else {
+      toast.success('User Login Successful');
+    }
+
     login({ ...data, id: nanoid() });
     navigate('/');
     reset();

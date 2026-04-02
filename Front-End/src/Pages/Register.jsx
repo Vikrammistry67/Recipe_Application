@@ -9,6 +9,27 @@ const Register = () => {
   const navigate = useNavigate();
 
   const submitHandler = async (data) => {
+
+    const isEmailAlreadyRegistered = await axios.get(`http://localhost:3000/users?email=${data.email}`);
+    if (isEmailAlreadyRegistered.data.length > 0) {
+      toast.error("EMAIL ALREADY IN USE.");
+      return;
+    }
+
+    const isUsernameTaken = await axios.get(`http://localhost:3000/users?username=${data.username}`);
+    if (isUsernameTaken.data.length > 0) {
+      toast.error("USERNAME TAKEN.");
+      return;
+    }
+
+    const isPasswordWeak = data.password.length < 8;
+    if (isPasswordWeak) {
+      toast.error("PASSWORD TOO WEAK.");
+      return;
+    }
+
+
+
     try {
       const response = await axios.post(`http://localhost:3000/users`, { id: nanoid(), ...data });
       toast.success("ID CREATED. PROCEED.", {
@@ -22,14 +43,11 @@ const Register = () => {
   };
 
   return (
-    /* RESPONSIVE PARENT: Mobile pe p-4, Desktop pe p-20 */
     <div style={{ paddingTop: '90px' }} className="min-h-screen  w-full bg-[#020202] flex items-center justify-center p-4 md:p-10 relative overflow-hidden font-sans">
 
-      {/* BACKGROUND GLOWS (Hidden on mobile to save performance, visible on MD+) */}
       <div className="hidden md:block absolute top-[-10%] right-[-10%] w-[500px] h-[500px] bg-emerald-500/[0.03] blur-[150px] rounded-full"></div>
       <div className="hidden md:block absolute bottom-[-10%] left-[-10%] w-[500px] h-[500px] bg-blue-500/[0.03] blur-[150px] rounded-full"></div>
 
-      {/* THE CARD: Mobile pe full width, Desktop pe 450px max */}
       <div className="w-full max-w-[480px]  relative z-10 animate-in fade-in zoom-in duration-700">
         <div className="bg-zinc-900/40 backdrop-blur-3xl p-8 md:p-14 rounded-[2.5rem] md:rounded-[3.5rem] border border-white/[0.05] shadow-2xl">
 
