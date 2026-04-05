@@ -4,7 +4,8 @@
       "username": "admin",
       "email": "admin@me.com",
       "password": "admin@123",
-      "role": "admin"
+      "role": "admin",
+      "id": "1V3Csqpf-Zg"
     },
     {
       "id": "Fh6A_Gwtw6k",
@@ -85,15 +86,15 @@
       "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCQKPkABtM8VMKoTtub2VYU7XzoQN89kK-QQ&s",
       "chefName": "Vikram Mistry",
       "Ingredients": "fish , masala , chaat masala",
-      "time": "03:42",
-      "category": "lunch",
-      "description": "best chiken korma i evere taste this have a test this chicken korma",
+      "time": "19:00",
+      "category": "dinner",
+      "description": "best chiken korma i evere taste this have a test this chicken korma yaa now its better taste",
       "id": "NDuqe0PPwoo"
     },
     {
-      "recipeName": "Pizza ",
+      "recipeName": "Paneer Pizza ",
       "recipeImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=481&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "chefName": "harsh Kumar",
+      "chefName": "harsh Kumar singh",
       "Ingredients": "flour, yeast, warm water, olive oil, salt, sugar",
       "time": "17:42",
       "category": "lunch",
@@ -102,38 +103,83 @@
       "id": "frCaiJbOgBM"
     },
     {
-      "recipeName": "",
-      "recipeImage": "",
-      "chefName": "",
-      "category": "",
-      "time": "",
-      "price": "",
-      "Ingredients": "",
-      "description": "",
-      "id": "iHHs_G0QYI8"
+      "recipeName": "Chai Paratha",
+      "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxi9rtxBHju9Z3YBv7sLTZNdcUiAtaRMX9RQ&s",
+      "chefName": "anshul singh",
+      "category": "lunch",
+      "time": "16:26",
+      "price": "80",
+      "Ingredients": "dudh , masala , aata tel ",
+      "description": "bdiya chai hai",
+      "id": "CnoiPxR0_ms"
+    },
+    {
+      "recipeName": "Chocolate Ice Cream",
+      "recipeImage": "https://vaya.in/recipes/wp-content/uploads/2018/12/Chocolate-Ice-Cream.jpg",
+      "chefName": "Ishu Soni",
+      "category": "dinner",
+      "time": "17:09",
+      "price": "360",
+      "Ingredients": "cream , mil , ice , sweet , sugar etc",
+      "description": "best chocolate flavoured ice cream , must try !",
+      "id": "p7U8blf2Y4w"
+    },
+    {
+      "recipeName": "Luscious dessert Red Velvet Cake ",
+      "recipeImage": "https://thumbs.dreamstime.com/b/luscious-dessert-red-velvet-cake-dark-background-ample-text-space-vertical-mobile-wallpaper-307775774.jpg",
+      "chefName": "Neha Sharma",
+      "category": "lunch",
+      "time": "20:18",
+      "price": "520",
+      "Ingredients": "milk, cream , red velvet , sugar , ice ",
+      "description": "best cake i ever taste , must try !",
+      "id": "fMNGs0ar39U"
+    },
+    {
+      "recipeName": "RashMalai",
+      "recipeImage": "https://eatsbyramya.com/wp-content/uploads/2024/10/rasmalai_can_recipe.jpg",
+      "chefName": "Gungun",
+      "category": "lunch",
+      "time": "12:23",
+      "price": "270",
+      "Ingredients": "dudh , masala , aata tel , malai , dahi",
+      "description": "best mithai in the world for me , delicious",
+      "id": "OXq9hRGxdX8"
     }
   ],
   "cart": [
     {
-      "recipeName": "Chicken Korma",
-      "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCQKPkABtM8VMKoTtub2VYU7XzoQN89kK-QQ&s",
-      "chefName": "Vikram Mistry",
-      "Ingredients": "fish , masala , chaat masala",
-      "time": "03:42",
-      "category": "lunch",
-      "description": "best chiken korma i evere taste this have a test this chicken korma",
-      "id": "i0RJ2N55Dhw"
+      "recipeName": "Chocolate Ice Cream",
+      "recipeImage": "https://vaya.in/recipes/wp-content/uploads/2018/12/Chocolate-Ice-Cream.jpg",
+      "chefName": "Ishu Soni",
+      "category": "dinner",
+      "time": "17:09",
+      "price": "360",
+      "Ingredients": "cream , mil , ice , sweet , sugar etc",
+      "description": "best chocolate flavoured ice cream , must try !",
+      "id": "PQWq2ybeyF0"
     },
     {
-      "recipeName": "Pizza ",
-      "recipeImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=481&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "chefName": "harsh Kumar",
-      "Ingredients": "flour, yeast, warm water, olive oil, salt, sugar",
-      "time": "17:42",
+      "recipeName": "RashMalai",
+      "recipeImage": "https://eatsbyramya.com/wp-content/uploads/2024/10/rasmalai_can_recipe.jpg",
+      "chefName": "Gungun",
       "category": "lunch",
-      "description": "A delicious Italian classic featuring a leavened",
-      "price": "240",
-      "id": "RWH2qKG6TrI"
+      "time": "12:23",
+      "price": "270",
+      "Ingredients": "dudh , masala , aata tel , malai , dahi",
+      "description": "best mithai in the world for me , delicious",
+      "id": "6Micei7JTN4"
+    },
+    {
+      "recipeName": "Luscious dessert Red Velvet Cake ",
+      "recipeImage": "https://thumbs.dreamstime.com/b/luscious-dessert-red-velvet-cake-dark-background-ample-text-space-vertical-mobile-wallpaper-307775774.jpg",
+      "chefName": "Neha Sharma",
+      "category": "lunch",
+      "time": "20:18",
+      "price": "520",
+      "Ingredients": "milk, cream , red velvet , sugar , ice ",
+      "description": "best cake i ever taste , must try !",
+      "id": "bzLRPuTtHks"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
